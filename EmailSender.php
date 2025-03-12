@@ -19,8 +19,8 @@ class MailSender
         $this->mail->isSMTP();
         $this->mail->Host = 'glowbiteria.mx'; // Servidor SMTP
         $this->mail->SMTPAuth = true;
-        $this->mail->Username = 'mensajes@glowbiteria.mx'; // Usuario SMTP
-        $this->mail->Password = 'G0ub1t3r1a2022'; // Contraseña SMTP
+        $this->mail->Username = ''; // Usuario SMTP
+        $this->mail->Password = ''; // Contraseña SMTP
         $this->mail->SMTPSecure = 'tls'; // Encriptación
         $this->mail->Port = 587; // Puerto SMTP
         $this->mail->CharSet = 'UTF-8'; // Codificación de caracteres
